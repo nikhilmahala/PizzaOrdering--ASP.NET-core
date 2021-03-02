@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PizzaDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="orddetails">
+    <Key>
+      <PropertyRef Name="ordno" />
+    </Key>
+    <Property Name="ordno" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="fname" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="lname" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="address" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="state" Type="varchar" MaxLength="20" />
+    <Property Name="city" Type="varchar" MaxLength="20" />
+    <Property Name="postalcode" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="phnno" Type="varchar" MaxLength="10" />
+    <Property Name="email" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="payment">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="paymethod" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="cardno" Type="varchar" MaxLength="20" />
+    <Property Name="amount" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="PizzaDBModelStoreContainer">
+    <EntitySet Name="orddetails" EntityType="Self.orddetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="payment" EntityType="Self.payment" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

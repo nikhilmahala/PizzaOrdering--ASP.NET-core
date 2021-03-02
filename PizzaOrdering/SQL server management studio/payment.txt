@@ -1,0 +1,5 @@
+id,paymethod,cardno,amount
+1,Cash,,? 4.52
+2,Cash,,? 12.77
+3,Cash,,? 12.88
+4,Credit Card,32323232323232,? 4.52

@@ -1,0 +1,26 @@
+ordno,fname,lname,address,state,city,postalcode,phnno,email
+1002,gin,king,ko,Kerala,kochi,682507,9809980998,gin@gmail.com
+1003,adi,lp,ws,Tamil Nadu,chennai,454545,4545454545,ai@gmail.com
+1004,har,lp,gyt,Punjab,amritsar,676767,6767676767,har@gmail.com
+1005,hgf,grg,gfd,UP,aligarh,342322,2121212121,ali@gmail.com
+1006,joy,ook,fr st.,Karnataka,coorg,233232,4232323232,joy@gmail.com
+1007,shakshi,sharan,ubt,Rajasthan,jaipur,333705,8080212121,shubhi@gmail.com
+1008,dfefrgg,eerre,reewe,Karnataka,blr,323232,4233232322,fre@gmail.com
+1009,dede,ss,qws,Maharashtra,mumbai,212121,3434343434,nk@gmail.com
+1010,ko,l,ft,Karnataka,blr,323232,2121212121,ko@gmail.com
+1011,nishant,sharma,rr,Rajasthan,pilani,560098,7338573254,nishu@gmail.com
+1012,eded,dece,rfr,Karnataka,blr,898989,8989898989,hu@gmail.com
+1013,dffd,ef,vdv,Karnataka,grt,232323,1212121212,de@gmail.com
+1014,aditya,harish,ksl,Karnataka,blr,560090,9898989898,aditya@gmail.com
+1015,lionel,messi,barca ,Rajasthan,jaipur,877887,8787878787,messi@gmail.com
+1016,nikhil,mahala,bgfr,Rajasthan,jaipur,876767,7676767676,nik@gmail.com
+1017,nitin,mahala,ko,Rajasthan,pilani,787878,9898989898,nit@gmail.com
+1018,rgrg,rgg,rwr,Karnataka,wer,232323,9809090909,ni@gmail.com
+1019,juhu,yt,gtr,Tamil Nadu,chennai,989898,0909090909,juhu@gmail.com
+1020,nishu,sharma,rr,Rajasthan,blr,560098,9898989898,n@gmail.com
+1021,,,,Rajasthan,,,,
+1022,nishu,sharma,rr,Karnataka,luc,898989,8989898989,n@gmail.com
+1023,lo,lo,gtr,Karnataka,blr,989898,9898989898,nik@gmail.com
+1024,we,ewdeed,fe,Karnataka,fre,233232,3232323232,lo@gmail.com
+1025,koushal,bhat,rr nagar,Karnataka,blr,560098,9898989898,koushal@gmail.com
+1026,vfd,vdv,sdcds,Karnataka,cssc,232323,2121212121,ji@gmail.com

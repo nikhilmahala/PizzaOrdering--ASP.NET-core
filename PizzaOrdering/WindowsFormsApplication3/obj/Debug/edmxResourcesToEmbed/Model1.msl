@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PizzaDBModelStoreContainer" CdmEntityContainer="PizzaDBEntities4">
+    <EntitySetMapping Name="orddetails">
+      <EntityTypeMapping TypeName="PizzaDBModel.orddetail">
+        <MappingFragment StoreEntitySet="orddetails">
+          <ScalarProperty Name="ordno" ColumnName="ordno" />
+          <ScalarProperty Name="fname" ColumnName="fname" />
+          <ScalarProperty Name="lname" ColumnName="lname" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="postalcode" ColumnName="postalcode" />
+          <ScalarProperty Name="phnno" ColumnName="phnno" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="payments">
+      <EntityTypeMapping TypeName="PizzaDBModel.payment">
+        <MappingFragment StoreEntitySet="payment">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="paymethod" ColumnName="paymethod" />
+          <ScalarProperty Name="cardno" ColumnName="cardno" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
